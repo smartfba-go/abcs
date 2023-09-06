@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-chi/render"
 
-	"go.smartfba.io/abcs/pkg/failures"
-	"go.smartfba.io/abcs/pkg/failures/failureshttp"
+	"go.smartfba.io/abcs/failures"
+	"go.smartfba.io/abcs/failures/failureshttp"
 )
 
 func Render(w http.ResponseWriter, r *http.Request, err error) {

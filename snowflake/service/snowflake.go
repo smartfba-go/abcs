@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"go.smartfba.io/abcs/pkg/failures"
-	"go.smartfba.io/abcs/pkg/snowflake"
-	snowflakesync "go.smartfba.io/abcs/pkg/snowflake/sync"
+	"go.smartfba.io/abcs/failures"
+	"go.smartfba.io/abcs/snowflake"
+	snowflakesync "go.smartfba.io/abcs/snowflake/sync"
 	"go.uber.org/fx"
 )
 

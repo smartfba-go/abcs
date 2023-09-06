@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"go.smartfba.io/abcs/pkg/failures"
+	"go.smartfba.io/abcs/failures"
 )
 
 type Status struct {

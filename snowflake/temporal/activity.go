@@ -3,8 +3,8 @@ package snowflaketemporal
 import (
 	"context"
 
-	"go.smartfba.io/abcs/pkg/snowflake"
-	snowflakeservice "go.smartfba.io/abcs/pkg/snowflake/service"
+	"go.smartfba.io/abcs/snowflake"
+	snowflakeservice "go.smartfba.io/abcs/snowflake/service"
 )
 
 type Activities struct {

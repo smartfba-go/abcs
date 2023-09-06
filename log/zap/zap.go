@@ -7,7 +7,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	abclog "go.smartfba.io/abcs/pkg/log"
+	abclog "go.smartfba.io/abcs/log"
 )
 
 var Module = fx.Module("abczap", fx.Provide(New))

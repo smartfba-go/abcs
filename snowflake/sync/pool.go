@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"go.smartfba.io/abcs/pkg/snowflake"
+	"go.smartfba.io/abcs/snowflake"
 )
 
 type Pool struct {

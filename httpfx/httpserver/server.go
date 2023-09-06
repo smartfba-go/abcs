@@ -5,7 +5,7 @@ import (
 	"net"
 	"net/http"
 
-	abczap "go.smartfba.io/abcs/pkg/log/zap"
+	abczap "go.smartfba.io/abcs/log/zap"
 	"go.uber.org/fx"
 )
 
